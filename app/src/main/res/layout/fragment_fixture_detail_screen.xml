@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/fragment_standings_screen_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <!-- <include layout="@layout/widget_toolbar" />-->
+
+        <com.example.pradeoga.myapplication.widget.FifaTabLayout
+            android:id="@+id/fragment_standings_screen_tabs"
+            style="@style/F1FixedTab.Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="enterAlways">
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/fragment_fixture_detail_home"
+                android:focusable="true" />
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/fragment_fixture_detail_away"
+                android:focusable="true" />
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/fragment_fixture_detail_stats"
+                android:focusable="true" />
+        </com.example.pradeoga.myapplication.widget.FifaTabLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_standings_screen_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_standings_screen_appbarlayout"
+        android:background="@android:color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</RelativeLayout>

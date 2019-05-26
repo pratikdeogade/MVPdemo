@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="dateSelected">#2364c6</color>
+    <color name="dateUnselected">#232122</color>
+
+    <color name="win">#49c623</color>
+    <color name="loss">#d61912</color>
+    <color name="prematch">#000000</color>
+
+    <color name="fifa_warm_red">#EE0000</color>
+    <color name="fifa_carbon_black">#15151e</color>
+    <color name="fifa_white">#FFFFFF</color>
+
+
+
+
+
+</resources>

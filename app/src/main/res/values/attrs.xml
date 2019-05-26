@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FifaTabLayout">
+        <attr name="tabSelectedFont" format="reference" />
+        <attr name="tabNormalFont" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="UnderlinedHeaderProfileView">
+        <attr name="isImageOutline" format="boolean" />
+    </declare-styleable>
+
+    <attr name="F1ColorBackground" format="color|reference" />
+    <attr name="F1ColorHero" format="color|reference" />
+    <attr name="F1ColorHeroBackground" format="color|reference" />
+    <attr name="F1ColorPrimary" format="color|reference" />
+    <attr name="F1ColorPrimaryInverse" format="color|reference" />
+    <attr name="F1ColorSecondary" format="color|reference" />
+    <attr name="F1ColorTernary" format="color|reference" />
+    <attr name="F1ColorArticleType" format="color|reference" />
+    <attr name="F1ColorArticleTitle" format="color|reference" />
+
+    <declare-styleable name="RaceResultAwardView">
+        <attr name="isAwarded" format="boolean" />
+    </declare-styleable>
+</resources>

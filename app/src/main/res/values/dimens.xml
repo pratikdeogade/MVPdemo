@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Tabs -->
+    <dimen name="tab_text_size">15sp</dimen>
+    <dimen name="tab_indicator_height">3dp</dimen>
+</resources>
